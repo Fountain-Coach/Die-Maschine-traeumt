@@ -2,6 +2,8 @@
 layout: default
 title: PB‑VRT — The Quiet Frame
 image: /assets/img/HEADER.png
+image_width: 1024
+image_height: 1024
 description: PB‑VRT is a prompt‑bound baseline and drift‑checking system for visual and audio work — the quiet frame that keeps intent true.
 ---
 
@@ -56,4 +58,3 @@ In the end, success looks almost ordinary. The team stops asking whether a thing
     <footer class="paper__footer"><p>© {{ site.time | date: '%Y' }} Fountain Coach — PB‑VRT Essay</p></footer>
   </div>
 </div>
-
