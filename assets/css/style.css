@@ -15,7 +15,7 @@ body { font-family: 'Spectral', Georgia, serif; line-height: 1.55; font-size: 18
 .nav__link { color: var(--accent); text-decoration: none; font-family: 'Source Sans 3', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-weight: 600; }
 .nav__link:hover { text-decoration: underline; }
 .brand { text-align: center; margin: 1.5rem 0 2rem; }
-.brand__image { width: 128px; height: 128px; margin: 0 auto 1rem; border-radius: 50%; background: center/cover no-repeat url('{{ '/assets/img/HEADER.png' | relative_url }}'); box-shadow: 0 0 0 6px rgba(59,93,96,.15); }
+.brand__image { width: 128px; height: 128px; margin: 0 auto 1rem; border-radius: 50%; background: center/cover no-repeat url('../img/HEADER.png'); box-shadow: 0 0 0 6px rgba(59,93,96,.15); }
 .brand__title { font-weight: 600; letter-spacing: .02em; margin: 0 .5rem; }
 .brand__subtitle { margin: .25rem 0 0; color: var(--muted); font-family: 'Source Sans 3', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
 
