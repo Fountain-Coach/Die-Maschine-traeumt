@@ -17,3 +17,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
+logo: /assets/img/HEADER.png
+twitter:
+  card: summary_large_image

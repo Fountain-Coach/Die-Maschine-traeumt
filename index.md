@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Die Maschine träumt
+image: /assets/img/HEADER.png
+description: Eine PB‑VRT / FountainAI Arbeit — Bühne, Bild und Klang im Quiet Frame
 ---
 
 {% include header.html %}
