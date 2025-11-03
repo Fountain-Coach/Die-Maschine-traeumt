@@ -86,11 +86,27 @@ a:hover { text-decoration-thickness: 2px; }
 
 /* Heartbeat pulse for the brand mark */
 @keyframes brandPulse {
-  0%   { transform: scale(1); box-shadow: 0 0 0 6px rgba(59,93,96,.15); }
-  40%  { transform: scale(1.035); box-shadow: 0 0 0 10px rgba(59,93,96,.08); }
-  100% { transform: scale(1); box-shadow: 0 0 0 6px rgba(59,93,96,.15); }
+  0%   { transform: scale(1); box-shadow: 0 0 0 6px rgba(59,93,96,.14); }
+  12%  { transform: scale(1.018); box-shadow: 0 0 0 8px rgba(59,93,96,.10); }
+  24%  { transform: scale(1.036); box-shadow: 0 0 0 11px rgba(59,93,96,.07); }
+  36%  { transform: scale(1.018); box-shadow: 0 0 0 8px rgba(59,93,96,.10); }
+  50%  { transform: scale(1);     box-shadow: 0 0 0 6px rgba(59,93,96,.14); }
+  62%  { transform: scale(1.012); box-shadow: 0 0 0 7px rgba(59,93,96,.12); }
+  74%  { transform: scale(1.03);  box-shadow: 0 0 0 10px rgba(59,93,96,.08); }
+  86%  { transform: scale(1.012); box-shadow: 0 0 0 7px rgba(59,93,96,.12); }
+  100% { transform: scale(1);     box-shadow: 0 0 0 6px rgba(59,93,96,.14); }
 }
-.brand__image { animation: brandPulse 1.6s ease-out .8s 2; transform-origin: 50% 50%; will-change: transform, box-shadow; }
+@keyframes brandBreath {
+  0%, 100% { filter: saturate(1) brightness(1); }
+  50% { filter: saturate(1.05) brightness(1.02); }
+}
+.brand__image {
+  animation:
+    brandPulse 2.6s ease-in-out 1s infinite,
+    brandBreath 9s ease-in-out 0s infinite;
+  transform-origin: 50% 50%;
+  will-change: transform, box-shadow, filter;
+}
 @media (prefers-reduced-motion: reduce) {
   .brand__image { animation: none; }
 }
