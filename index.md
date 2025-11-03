@@ -13,6 +13,9 @@ title: Die Maschine träumt
       {% endcapture %}
       {{ readme | markdownify }}
     </div>
+    <footer class="paper__footer">
+      <p>© {{ site.time | date: '%Y' }} Fountain Coach — Die Maschine träumt</p>
+    </footer>
   </div>
 </div>
 <!-- build: 1762153674 -->
