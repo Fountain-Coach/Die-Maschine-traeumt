@@ -1,0 +1,19 @@
+lang: de
+name: Die Maschine träumt
+title: Die Maschine träumt
+description: Eine PB‑VRT / FountainAI Arbeit – Bühne, Bild und Klang im Quiet Frame
+url: ""
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
