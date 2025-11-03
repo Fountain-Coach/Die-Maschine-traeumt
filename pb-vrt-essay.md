@@ -54,7 +54,7 @@ PB‑VRT fits the rest of our shop because PatchBay is how we make complex surfa
 ## A Quiet Finish
 
 In the end, success looks almost ordinary. The team stops asking whether a thing looks about right and starts letting the work pass or fail with the same steady criteria. Capturing a baseline becomes a small, obvious gesture made at the moment when a page feels settled. When something fades or shifts or cracks, we find out before our users do. We ship with speed and with calm because we know what changed, we chose it on purpose, and the room’s own eyes and ears have already said yes.
-    </div>
+
 <footer class="paper__footer"><p>© {{ site.time | date: '%Y' }} Fountain Coach — PB‑VRT Essay</p></footer>
   </div>
 </div>
