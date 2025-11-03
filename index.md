@@ -4,6 +4,9 @@ title: Die Maschine träumt
 image: /assets/img/HEADER.png
 image_width: 1024
 image_height: 1024
+social_image: /assets/img/social-1200x630.png
+social_image_width: 1200
+social_image_height: 630
 description: Eine PB‑VRT / FountainAI Arbeit — Bühne, Bild und Klang im Quiet Frame
 ---
 
