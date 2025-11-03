@@ -86,7 +86,11 @@ a:hover { text-decoration-thickness: 2px; }
   h3 { font-size: .98rem; }
   blockquote { padding: .35rem .8rem; }
   pre { font-size: .9em; }
-  /* Make tables scroll when needed */
-  table { display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  thead, tbody, th, td, tr { white-space: nowrap; }
+  /* Stack tables into labeled rows for mobile */
+  table { width: 100%; border: 0; }
+  thead { display: none; }
+  tbody tr { display: block; padding: .35rem 0 .2rem; border-top: 1px solid #ecebe8; }
+  tbody tr:first-child { border-top: 0; }
+  td { display: grid; grid-template-columns: 1fr 1.2fr; gap: .75rem; padding: .4rem 0; white-space: normal; }
+  td::before { content: attr(data-label); font-weight: 600; color: #595955; }
 }
