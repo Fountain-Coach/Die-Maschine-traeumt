@@ -84,6 +84,17 @@ a:hover { text-decoration-thickness: 2px; }
   .brand { animation: none; }
 }
 
+/* Heartbeat pulse for the brand mark */
+@keyframes brandPulse {
+  0%   { transform: scale(1); box-shadow: 0 0 0 6px rgba(59,93,96,.15); }
+  40%  { transform: scale(1.035); box-shadow: 0 0 0 10px rgba(59,93,96,.08); }
+  100% { transform: scale(1); box-shadow: 0 0 0 6px rgba(59,93,96,.15); }
+}
+.brand__image { animation: brandPulse 1.6s ease-out .8s 2; transform-origin: 50% 50%; will-change: transform, box-shadow; }
+@media (prefers-reduced-motion: reduce) {
+  .brand__image { animation: none; }
+}
+
 /* Responsive adjustments */
 @media (max-width: 900px) {
   body { font-size: 16px; }
