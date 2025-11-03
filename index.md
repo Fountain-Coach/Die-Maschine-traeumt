@@ -5,7 +5,13 @@ title: Die Maschine träumt
 
 {% include header.html %}
 
-{% capture readme %}
-{% include_relative README.md %}
-{% endcapture %}
-{{ readme | markdownify }}
+<div class="page">
+  <div class="paper">
+    <div class="spread">
+      {% capture readme %}
+      {% include_relative README.md %}
+      {% endcapture %}
+      {{ readme | markdownify }}
+    </div>
+  </div>
+</div>
