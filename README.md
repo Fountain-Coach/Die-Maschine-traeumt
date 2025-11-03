@@ -16,7 +16,7 @@ Musik, Projektion und Systemlogik werden nicht verbunden, sondern gemeinsam komp
 
 Das System verwendet PB‑VRT (Prompt‑Bound Visual Regression Testing).   Es macht Veränderungen sichtbar, prüfbar und hält jeden Zustand als Teil einer lernenden Form fest.  
 
-Die Spezifikation folgt dem [PB‑VRT‑Essay im FountainKit‑Repository](https://github.com/Fountain-Coach/FountainKit/blob/main/Public/pb-vrt-spec-and-openapi/PB-VRT-Essay.md).  
+DIE Spezifikation folgt dem [PB‑VRT‑Essay]({{ '/pb-vrt-essay/' | relative_url }}).  
 Dort wird das Prinzip des Quiet Frame als Grundlage einer präzisen, visuellen Kontrollkette beschrieben.
 
 ---
